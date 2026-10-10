@@ -1,0 +1,6 @@
+{
+  "name": "Power Electronics Waveform & Schematic Simulator",
+  "description": "Interactive power electronics laboratory simulating diode and thyristor rectifiers (half-wave, full-wave, single-phase, three-phase) with dynamic schematics and comparative analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

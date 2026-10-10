@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -16;
+  }
+}
+
+.wire-animated {
+  stroke-dasharray: 6 3;
+  animation: dashFlow 0.6s linear infinite;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
