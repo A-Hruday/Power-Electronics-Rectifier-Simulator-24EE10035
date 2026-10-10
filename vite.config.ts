@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Required so asset paths resolve correctly on GitHub Pages
+    base: '/Power-Electronics-Rectifier-Simulator-24EE10035/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
